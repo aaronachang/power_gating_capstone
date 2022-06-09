@@ -1,0 +1,7 @@
+/home/lab.apps/vlsiapps/kits/tsmc/N65LP/digital/Front_End/verilog/tcbn65lpcghvt_200a/tcbn65lpcghvt.v
+/home/lab.apps/vlsiapps/kits/tsmc/N65LP/digital/Front_End/verilog/tcbn65lp_200a/tcbn65lp.v
+cpu_top.syn.v
+tb_cpu_top.syn.sv
+datamem.sv
+instructmem.sv
+cpu_global_define.vh

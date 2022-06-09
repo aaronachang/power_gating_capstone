@@ -1,0 +1,26 @@
+****************************************
+Report : Averaged Power
+	-hierarchy
+Design : cpu_top
+Version: T-2022.03-SP1
+Date   : Tue Jun  7 21:12:21 2022
+****************************************
+
+
+
+                                      Int      Switch   Leak     Total
+Hierarchy                             Power    Power    Power    Power    %
+----------------------------------------------------------------------------------
+cpu_top                               9.39e-05 2.92e-05 6.62e-07 1.24e-04 100.0
+  extend_imm8z (extend_unit_8_1)      2.31e-08 8.88e-09 2.76e-10 3.23e-08   0.0
+  alu1 (alu)                          1.96e-06 1.73e-06 4.72e-08 3.73e-06   3.0
+  regfile1 (regfile)                  5.17e-05 7.86e-06 3.07e-07 5.99e-05  48.4
+  instr_dec1 (instr_dec)              2.93e-07 3.99e-07 7.75e-09 7.00e-07   0.6
+  extend_imm6 (extend_unit_6)         2.37e-08 1.23e-08 3.07e-10 3.64e-08   0.0
+  extend_imm7 (extend_unit_7)         2.32e-08 1.14e-08 2.76e-10 3.49e-08   0.0
+  shifter1 (shifter)                  1.99e-08    0.000 3.65e-08 5.63e-08   0.0
+  fw_unit1 (fw_unit_1)                7.47e-08 8.33e-08 8.35e-10 1.59e-07   0.1
+  fw_unit2 (fw_unit_0)                9.89e-08 1.27e-07 7.31e-10 2.26e-07   0.2
+  extend_imm11 (extend_unit_11)       2.41e-08 1.44e-08 3.15e-10 3.87e-08   0.0
+  extend_imm8s (extend_unit_8_0)      2.38e-08 1.52e-08 3.07e-10 3.93e-08   0.0
+1

@@ -1,0 +1,20 @@
+type = offset
+defaultOffset = 50.0
+
+#W, 20
+tVDD, layer=M2 +5
+VSS, layer=M2 +5
+clk, layer=M2 +5
+rst, layer=M2 +5
+activate, layer=M2 +5
+isolate, layer=M2 +5
+imem_data[15:0], layer=M2, pitch=2 +5
+dmem_rddata[31:0], layer=M2, pitch=2 +5
+
+#E, 5
+dmem_wren, layer=M2 +5
+dmem_rden, layer=M2 +5
+imem_addr[31:0], layer=M2, pitch=2 +5
+dmem_addr[31:0], layer=M2, pitch=2 +5
+dmem_wrdata[31:0], layer=M2, pitch=2 +5
+

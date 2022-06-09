@@ -1,0 +1,11 @@
+cpu_top.sv
+tb_cpu_top.sv
+alu.sv
+datamem.sv
+instructmem.sv
+shifter.sv
+instr_dec.sv
+regfile.sv
+sign_extend.sv
+fw_unit.sv
+cpu_global_define.vh
