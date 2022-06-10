@@ -4,6 +4,7 @@ module cpu_top_testbench();
     logic clk;
     logic rst;
     logic activate; //power gating
+    logic isolate;
     // imem interface
     logic [31:0] imem_addr;
     logic [15:0] imem_data;
@@ -43,6 +44,7 @@ module cpu_top_testbench();
         $vcdpluson;
 		rst <= 1; repeat(2)   @(posedge clk);
         activate <= 1;
+        isolate <= 0;
 		rst <= 0;
         @(posedge clk);
         while (imem_data != 16'b0010011100000111)

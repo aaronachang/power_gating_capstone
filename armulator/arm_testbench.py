@@ -38,6 +38,7 @@ def arm_simulation(instructions_config, verilog_folder):
     sim_reglist = [i for i in cpu_file.readlines()]
     passed = True
     for i in range(0, 14): #skip register 15 since simulation will be 'x'
+        print("Register {}: Expected: {} Simulation: {}".format(i, testbench_reglist[i], sim_reglist[i]))
         if testbench_reglist[i] != int(sim_reglist[i]):
             print("\nError: Register {} in simulation {} does not match testbench {}".format(i, sim_reglist[i], testbench_reglist[i]))
             passed = False
